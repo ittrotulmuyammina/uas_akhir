@@ -20,8 +20,8 @@ from members.views import *
 
 urlpatterns = [
     path('', index, name='index'),
-    path('ina', ina, name='ina'),
-    path('generic', generic, name='generic'),
     path('elements', elements, name='elements'),
+    path('generic', generic, name='generic'),
+    path('ina', ina, name='ina'),
     path('admin/', admin.site.urls),
 ]
