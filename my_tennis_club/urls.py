@@ -20,6 +20,7 @@ from members.views import *
 
 urlpatterns = [
     path('', index, name='index'),
+    path('buy', buy, name='buy'),
     path('elements', elements, name='elements'),
     path('generic', generic, name='generic'),
     path('ina', ina, name='ina'),

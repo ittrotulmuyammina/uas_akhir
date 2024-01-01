@@ -5,6 +5,9 @@ from django.template import loader
 def index(request):
   template = loader.get_template('index.html')
   return HttpResponse(template.render())
+def buy(request):
+  template = loader.get_template('buy.html')
+  return HttpResponse(template.render())
 def elements(request):
   template = loader.get_template('elements.html')
   return HttpResponse(template.render())
